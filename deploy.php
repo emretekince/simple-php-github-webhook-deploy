@@ -11,7 +11,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 // Init vars
-$LIVE = "/var/www/dogaltakip/beta";
+$LIVE = "/var/www/LIVE";
 $USER = 'username';
 $PASS = 'password';
 $REMOTE_REPO = "https://{$USER}:{$PASS}@github.com/{$USER}/yourrepo.git";
